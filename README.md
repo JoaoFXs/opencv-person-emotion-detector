@@ -1,4 +1,22 @@
 # Facial and Expression Recognition - Image Processing and Computer Vision Exam Project
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![dlib](https://img.shields.io/badge/dlib-008000?style=for-the-badge&logo=dlib&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![DeepFace](https://img.shields.io/badge/DeepFace-FF6F00?style=for-the-badge&logo=deepface&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![seaborn](https://img.shields.io/badge/seaborn-5B8CBF?style=for-the-badge&logo=seaborn&logoColor=white)
+![GitHub contributors](https://img.shields.io/github/contributors/JoaoFXs/your-repo-name)
+![License](https://img.shields.io/github/license/JoaoFXs/your-repo-name)
+![Issues](https://img.shields.io/github/issues/JoaoFXs/your-repo-name)
+![Project Status](https://img.shields.io/badge/Status-Academic%20Project-blueviolet)
+![Last Commit](https://img.shields.io/github/last-commit/JoaoFXs/your-repo-name)
+![face_recognition](https://img.shields.io/badge/face__recognition-1.3.0-blue)
+![DeepFace](https://img.shields.io/badge/DeepFace-0.0.93-orange)
+![dlib](https://img.shields.io/badge/dlib-19.24.2-green)
 This project was developed as part of an academic assessment for the Image Processing and Computer Vision course. The system performs facial recognition and emotional expression detection using advanced computer vision techniques.
 ## Table of Contents
 - [Key Features](#key-features)
