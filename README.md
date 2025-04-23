@@ -18,15 +18,15 @@ This project was developed as part of an academic assessment for the Image Proce
 	- [Contributors](#contributors)
 - [License](#license)
   
-#Key Features
+# Key Features
 - Facial Recognition: Identifies faces in images and compares them against a pre-trained database
 - Emotion Detection: Classifies facial expressions into 7 categories (angry, disgust, fear, happy, sad, surprise, neutral)
 - Training System: Allows training models with new images for personalized recognition
 - Result Visualization: Displays images with detected faces and identified emotions
 
-#Technologies Used
+# Technologies Used
 - Python 3
-##Libraries:
+## Libraries:
 - face_recognition
 - dlib
 - OpenCV
@@ -35,30 +35,30 @@ This project was developed as part of an academic assessment for the Image Proce
 - Pillow
 - seaborn and matplotlib for visualization
 
-#Installation
+# Installation
 To run this project, install the dependencies with:
 ```bash
 pip install face_recognition opencv-python scikit-learn seaborn matplotlib deepface
 ```
-#Project Structure
+# Project Structure
 The main code contains:
 - Initial setup: Loading pre-trained facial detection models
 ##Processing functions:
 - face_encodings: Generates facial feature vectors
 - _raw_face_locations: Detects faces in images
-##Model training:
+## Model training:
 - Data splitting into training, validation, and test sets
-##Data normalization
+## Data normalization
 - Logistic Regression training
 - Emotion detection: Uses DeepFace library for emotional analysis
 - Visualization: Plotting results and confusion matrices
 
-#How to Use
+# How to Use
 1. Prepare a directory with training images, organized in subfolders by person
 2. Execute the main() function with the image folder path and a location to save the model
 3. To test with new images, use the process_new_image() function
 
-##Example:
+## Example:
 ```python
 folder_path = "/path/to/training_images"
 model_path = "/path/to/trained_model.h5"
@@ -72,7 +72,7 @@ clf, names, scaler = main(folder_path, model_path)
 new_image_path = "/path/to/new_image.jpg"
 process_new_image(new_image_path, model_path)
 ```
-#Results
+# Results
 The system provides:
 - Person identification (if recognized)
 - Detected emotion (with Portuguese translation)
@@ -80,12 +80,12 @@ The system provides:
 - Facial feature vector
 - Evaluation metrics (accuracy, F1-score, confusion matrix)
 
-#Limitations
+# Limitations
 - Requires images with clearly visible faces
 - Performance may vary with lighting conditions and angles
 - Unregistered persons are classified as "Unknown"
 
-#Maintainers
+# Maintainers
 
 [@JoaoFXs](https://github.com/JoaoFXs).
 
