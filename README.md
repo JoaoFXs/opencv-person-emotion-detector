@@ -1,21 +1,19 @@
 # Facial and Expression Recognition - Image Processing and Computer Vision Exam Project
 This project was developed as part of an academic assessment for the Image Processing and Computer Vision course. The system performs facial recognition and emotional expression detection using advanced computer vision techniques.
 ## Table of Contents
-
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
   - [Libraries](#libraries)
 - [Installation](#installation)
+- [Project Structure](#project-structure)
+  - [Processing Functions](#processing-functions)
+  - [Model Training](#model-training)
 - [Usage](#usage)
-  - [Consume Messages From ActiveMQ](#consume-messages-from-activemq)
-  - [Data Transformation and Validation](#data-transformation-and-validation)
-  - [Error Handling](#error-handling)
-  - [Log Viewing](#log-viewing)
-- [Conclusion](#conclusion)
-  - [Potential Applications](#potential-applications)
+- [Results](#results)
+- [Limitations](#limitations)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
-	- [Contributors](#contributors)
+  - [Contributors](#contributors)
 - [License](#license)
   
 # Key Features
